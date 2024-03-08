@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.first {
+    background-image: url(https://images.unsplash.com/photo-1698069466499-2b908e76ca87?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 700px;
+    color: white;
+
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+    padding: 24px;
+}
+
+.nav-bar {
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nigeria {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sign {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.menu {
+    font-size: 30px;
+    color: white;
+}
+
+.mini-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bunch {
+    margin-left: 170px;
+    margin-top:80px;
+}
+
+.go {
+   font-size: 60px;
+}
+
+.mobility {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.app {
+    color: white;
+    background-color: springgreen;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.second {
+    text-align: center;
+    padding: 24px;
+    margin-top: 170px;
+}
+
+.earn {
+    font-size: 50px;
+}
+
+.drive {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cor {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: grey;
+    text-decoration: none;
+    font-weight: lighter;
+    border-radius: 30px;
+}
+
+.types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.man-list {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 60px;
+    margin-left: 170px;
+
+}
+
+.money {
+    font-size: 30px;
+}
+
+.num {
+    color: white;
+    background-color: springgreen;
+    padding: 2px;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.each {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.yoo {
+    color: grey;
+}
+
+.describe {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.one {
+    display: flex;
+    text-align: left ;
+    gap: 15px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.mini-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    text-align: left;
+    width: 50%;
+}
+
+.man {
+    border-radius: 5px;
+    width: 40%;
+}
+
+.learn {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(227, 227, 227);
+    padding: 10px;
+    font-weight: bold;
+    width: 25%;
+    border-radius: 30px;
+}
+
+
+.third {
+    padding: 24px;
+    margin-top: 70px;
+}
+
+.service {
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: rgb(246, 246, 246);
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.request {
+    font-size: 14px;
+    color: grey;
+    margin-top: 20px;
+    /* border-radius: 10px; */
+}
+
+.fourth {
+    padding: 24px;
+    margin-top: 60px;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+    margin-right: 170px;
+    justify-content: space-between;
+}
+
+.share {
+    font-size: 25px;
+    color: grey;
+}
+
+.fifth {
+    text-align: center;
+    padding: 24px;
+    margin-top: 60px;
+}
+
+.europe {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.globe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat > i {
+    font-size: 30px;
+    color: springgreen;
+}
+
+.mill {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cust {
+    font-size: 15px;
+    color: grey;
+}
+
+.globe-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.bolt-1 {
+    width: 100%;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.bolt {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.sixth {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 90px;
+}
+
+.news {
+    font-size: 45px;
+}
+
+.view {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-boxes {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.fes-box {
+     width: 33.3%;
+}
+
+.minutes {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.journey {
+    margin-top: 10px;
+}
+
+.seventh {
+    padding: 24px;
+    text-align: center;
+}
+
+.download {
+    margin-top: 70px;
+    font-size: 50px;
+} 
+
+.car {
+    border-radius: 15px;
+}
+
+.ride {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dell {
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid grey;
+}
+
+.gawd {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.green {
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: springgreen;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    margin-top: 40px;
+}
+
+.rizz {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    gap: 40px;
+}
+
+.secs {
+    font-size: 45px;
+    
+}
+
+.aval {
+    font-size: 20px;
+}
+
+.contact {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 150px;
+}
+
+.the {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.niger {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30%;
+}
+
+.fes-flex {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.idk {
+    color: black;
+    text-decoration: none;
+    color: grey;
+}
+
+.idk:hover {
+    color: springgreen;
+}
+
+.second-flex {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.top-flex {
+    display: flex;
+    gap: 100px;
+}
+
+.fes-bottom > i {
+      font-size: 25px;
+      background-color: rgb(238, 236, 236);
+      padding: 10px;
+      border-radius: 30px;
+}
+
+.fes-bottom {
+    display: flex;
+    gap: 15px;
+}
+
+.hehe {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.second-bottom {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.shesh {
+    color: grey;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-bar, .bunch, .man-list, .grid-boxes, .total, .sixth, .green, .contact {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mini-list {
+        width: 100%;
+    }
+
+    .total {
+        gap: 200px;
+    }
+
+    .man {
+        width: 50%;
+    }
+
+    .learn {
+        width: 40%;
+    }
+
+    .contact {
+        padding: 24px;
+    }
+
+    .sixth {
+        padding: 30px;
+    }
+
+    .all {
+       width: 100%;  
+    }
+
+    .building {
+        width: 80%;
+    }
+
+    .logo {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .go {
+        font-size: 40px;
+    }
+    
+    .mobility {
+        font-size: 15px;
+    }
+
+    .second {
+        text-align: left;
+    }
+
+    .types {
+        justify-content: left;
+    }
+
+    .man-list {
+        flex-direction: column;
+    }
+
+    .man {
+        width: 100%;
+    }
+
+    .mini-list {
+       width: 100%;
+    }
+
+    .learn {
+        width: 120px;
+    }
+
+    .service {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .grid-boxes {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .total {
+        flex-direction: column;
+    }
+
+    .building {
+        width: 100%;
+    }
+
+    .money {
+        font-size: 30px;
+    }
+
+    .share {
+        font-size: 20px;
+    }
+
+    .earn {
+        font-size: 30px;
+    }
+
+    .europe {
+        font-size: 16px;
+    }
+
+    .globe-count {
+        flex-direction: column;
+    }
+
+    .news {
+        font-size: 30px;
+    }
+
+    .view {
+        font-size: 13px;
+    }
+
+    .more-boxes {
+        flex-direction: column;
+    }
+
+    .fes-box {
+        width: 100%;
+    }
+
+    .download {
+        font-size: 30px;
+    }
+
+    .green {
+        flex-direction: column;
+    }
+
+    .hand {
+        width: 100%;
+    }
+
+    .rizz {
+        width: 100%;
+    }
+
+    .top-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .niger {
+        width: 100px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .bottom-flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .secs {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nigeria {
+        display: none;
+    }
+    
+    .cor {
+        font-size: 13px;
+    
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .top-flex {
+        grid-template-columns: 1fr;
+    }
+
+    .second-bottom {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
